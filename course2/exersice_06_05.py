@@ -1,7 +1,6 @@
 str="x-dspam-confidence:0.8475"
 
 ipos = str.find(':')
-print (ipos)
 piece = str[ipos+1:]
 print (piece)
 value = float(piece)
